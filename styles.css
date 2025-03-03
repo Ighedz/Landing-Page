@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/freizeit-120');
+:root {
+    --font-family-text: 'Freizeit 120', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-text);
+}
+.container {
+width: 100%;
+height:100vh;
+background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(image/background\ image\ 2.avif);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.navbar{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px; 
+     
+}
+.navbar ul li a {
+    gap: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* .navbar ul li :hover::after {
+    width:100%;
+} */
+ .content {
+    color: #fff;  
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+   
+ }
+ .content h1 {
+    text-transform: uppercase;
+    margin: 5px auto;
+ }
+.content p {
+    font-size: 16px;
+    margin: 20px auto;
+    line-height: 2rem;
+ }
+ .button {
+    border: 2px solid #009688;
+    padding: 1rem 2rem;
+    margin: 2px auto;
+    text-align: center;
+    border-radius: 2rem;
+    width: 200px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
